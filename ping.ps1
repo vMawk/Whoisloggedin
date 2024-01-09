@@ -1,4 +1,4 @@
-Write-Host "------------------Talpa Network-------------------"
+Write-Host "github.com/vmawk"
 $computer = Read-Host -Prompt "Enter the name of the computer you want to check"
 $ping = Test-Connection -ComputerName $computer -Count 1 -ErrorAction SilentlyContinue
 if ($ping) {
